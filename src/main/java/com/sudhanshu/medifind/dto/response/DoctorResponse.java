@@ -1,4 +1,4 @@
-package com.sudhanshu.medifind.dto;
+package com.sudhanshu.medifind.dto.response;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;                          //Dto is of two type response and request
@@ -18,7 +18,10 @@ public class DoctorResponse {
     private String specialization;
     private String hospital;
     private String city;
+    private String state;
     private Integer experience;
     private Double consultationFee;
+    private String about;
+    private String available;
     private Double rating;
 }
